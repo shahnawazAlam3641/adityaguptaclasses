@@ -35,12 +35,7 @@ export default function Navbar() {
             >
               Faculty
             </a>
-            <a
-              href="#contact"
-              className="text-gray-700 dark:text-gray-300 hover:text-primary-400 dark:hover:text-primary-500"
-            >
-              Contact
-            </a>
+
             <button
               onClick={toggleTheme}
               className="p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800"
