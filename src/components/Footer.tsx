@@ -1,5 +1,13 @@
-import React from 'react';
-import { Facebook, Twitter, Instagram, Youtube, Mail, Phone, MapPin } from 'lucide-react';
+import React from "react";
+import {
+  Facebook,
+  Twitter,
+  Instagram,
+  Youtube,
+  Mail,
+  Phone,
+  MapPin,
+} from "lucide-react";
 
 export default function Footer() {
   return (
@@ -31,17 +39,26 @@ export default function Footer() {
             <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
             <ul className="space-y-2">
               <li>
-                <a href="#courses" className="text-gray-400 hover:text-primary-500">
+                <a
+                  href="#courses"
+                  className="text-gray-400 hover:text-primary-500"
+                >
                   Courses
                 </a>
               </li>
               <li>
-                <a href="#demo" className="text-gray-400 hover:text-primary-500">
+                <a
+                  href="#demo"
+                  className="text-gray-400 hover:text-primary-500"
+                >
                   Demo Classes
                 </a>
               </li>
               <li>
-                <a href="#faculty" className="text-gray-400 hover:text-primary-500">
+                <a
+                  href="#faculty"
+                  className="text-gray-400 hover:text-primary-500"
+                >
                   Faculty
                 </a>
               </li>
@@ -64,13 +81,19 @@ export default function Footer() {
               </li>
               <li className="flex items-center">
                 <Phone className="h-5 w-5 text-primary-500 mr-2" />
-                <a href="tel:+919876543210" className="text-gray-400 hover:text-primary-500">
-                  +91 98765 43210
+                <a
+                  href="tel:+919903503989"
+                  className="text-gray-400 hover:text-primary-500"
+                >
+                  +91 9903503989
                 </a>
               </li>
               <li className="flex items-center">
                 <Mail className="h-5 w-5 text-primary-500 mr-2" />
-                <a href="mailto:info@agc.com" className="text-gray-400 hover:text-primary-500">
+                <a
+                  href="mailto:info@agc.com"
+                  className="text-gray-400 hover:text-primary-500"
+                >
                   info@agc.com
                 </a>
               </li>

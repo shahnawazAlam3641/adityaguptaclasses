@@ -17,6 +17,10 @@ export default function CourseDetails() {
   const course = courseData[id as keyof typeof courseData];
 
   React.useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
+  React.useEffect(() => {
     if (course) {
       const seoTitle = `${course.title} Course in Kolkata | AGC - Aditya Gupta Classes`;
       const seoDescription = `Join ${course.title} at AGC, Kolkata's premier commerce coaching. ${course.description} Expert faculty, comprehensive study material, and proven results. Enroll now!`;
@@ -126,7 +130,7 @@ export default function CourseDetails() {
 
               <div className="space-y-4">
                 <a
-                  href={`https://wa.me/919876543210?text=Hi, I'm interested in the ${course.title} course and would like to enroll.`}
+                  href={`https://wa.me/919903503989?text=Hi, I'm interested in the ${course.title} course and would like to enroll.`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-full btn-primary inline-flex justify-center"
