@@ -5,7 +5,7 @@ export const courseData = {
     description:
       "Comprehensive commerce education for Class 11 students with expert guidance.",
     thumbnail:
-      "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&q=75&w=800",
+      "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&q=80&w=1200",
     duration: "12 months",
     students: "500+",
     subjects: [
@@ -35,7 +35,7 @@ export const courseData = {
     description:
       "Complete preparation for Class 12 board exams and competitive exams.",
     thumbnail:
-      "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&q=75&w=800",
+      "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&q=80&w=1200",
     duration: "12 months",
     students: "600+",
     subjects: [
@@ -64,7 +64,7 @@ export const courseData = {
     title: "B.Com CCF Semester 1",
     description: "Foundation courses in commerce and financial accounting.",
     thumbnail:
-      "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&q=75&w=800",
+      "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&q=80&w=1200",
     duration: "6 months",
     students: "200+",
     subjects: [
@@ -154,7 +154,7 @@ export const courseData = {
     description:
       "Advanced financial management and business economics with practical training.",
     thumbnail:
-      "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=75&w=800",
+      "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=1200",
     duration: "6 months",
     students: "160+",
     subjects: [
@@ -184,7 +184,7 @@ export const courseData = {
     description:
       "Strategic management and advanced accounting with industry integration.",
     thumbnail:
-      "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=75&w=800",
+      "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=1200",
     duration: "6 months",
     students: "140+",
     subjects: [
@@ -244,7 +244,7 @@ export const courseData = {
     description:
       "Comprehensive MBA preparation with focus on practical knowledge and industry exposure.",
     thumbnail:
-      "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&q=75&w=800",
+      "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&q=80&w=1200",
     duration: "24 months",
     students: "100+",
     subjects: [
@@ -277,7 +277,7 @@ export const courseData = {
     description:
       "Comprehensive undergraduate business program with practical exposure.",
     thumbnail:
-      "https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&q=75&w=800",
+      "https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&q=80&w=1200",
     duration: "36 months",
     students: "120+",
     subjects: [
@@ -310,7 +310,7 @@ export const courseData = {
     description:
       "Comprehensive Microsoft Office suite training for professionals.",
     thumbnail:
-      "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&q=75&w=800",
+      "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&q=80&w=1200",
     duration: "3 months",
     students: "200+",
     subjects: [
@@ -340,7 +340,7 @@ export const courseData = {
     description:
       "Professional training in GST compliance and Tally software with practical exposure.",
     thumbnail:
-      "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&q=75&w=800",
+      "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&q=80&w=1200",
     duration: "4 months",
     students: "150+",
     subjects: [
@@ -370,7 +370,7 @@ export const courseData = {
     description:
       "Advanced studies in commerce with specialization options and research focus.",
     thumbnail:
-      "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&q=75&w=800",
+      "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&q=80&w=1200",
     duration: "24 months",
     students: "80+",
     subjects: [
@@ -438,20 +438,20 @@ export const facultyMembers = [
     role: "Founder & Lead Instructor",
     subjects: ["Advanced Accountancy", "Business Studies"],
     image:
-      "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=75&w=400",
+      "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=400",
   },
   {
     name: "Priya Sharma",
     role: "Senior Faculty",
     subjects: ["Economics", "Business Mathematics"],
     image:
-      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=75&w=400",
+      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=400",
   },
   {
     name: "Rajesh Kumar",
     role: "Course Coordinator",
     subjects: ["Cost Accounting", "GST"],
     image:
-      "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=75&w=400",
+      "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=400",
   },
 ];

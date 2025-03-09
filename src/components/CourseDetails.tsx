@@ -16,11 +16,6 @@ export default function CourseDetails() {
   const navigate = useNavigate();
   const course = courseData[id as keyof typeof courseData];
 
-  // Add useEffect to scroll to top when component mounts
-  React.useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
-
   React.useEffect(() => {
     if (course) {
       const seoTitle = `${course.title} Course in Kolkata | AGC - Aditya Gupta Classes`;

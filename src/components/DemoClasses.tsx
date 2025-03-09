@@ -34,9 +34,9 @@ export default function DemoClasses() {
               initial={{ opacity: 0, y: 20 }}
               animate={inView ? { opacity: 1, y: 0 } : {}}
               transition={{ duration: 0.6, delay: index * 0.2 }}
-              className="bg-gray-50 dark:bg-gray-800 rounded-lg overflow-hidden shadow-lg"
+              className="bg-gray-50 dark:bg-gray-800 rounded-lg overflow-hidden"
             >
-              <div className="relative w-full pb-[56.25%] ">
+              <div className="relative w-full pb-[56.25%]">
                 <iframe
                   src={video.embedUrl}
                   title={video.title}

@@ -118,7 +118,7 @@ export default function Testimonials() {
               initial={{ opacity: 0, y: 20 }}
               animate={inView ? { opacity: 1, y: 0 } : {}}
               transition={{ duration: 0.6, delay: index * 0.2 }}
-              className="bg-gray-50 dark:bg-gray-800 rounded-lg p-6 relative shadow-lg"
+              className="bg-gray-50 dark:bg-gray-800 rounded-lg p-6 relative"
             >
               <Quote className="absolute top-6 right-6 h-8 w-8 text-primary-200" />
               <p className="text-gray-600 dark:text-gray-300 mb-6">
